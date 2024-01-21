@@ -1,0 +1,35 @@
+{
+    "Author": "VilleOlof",
+    "CodePath": "app.html",
+    "Description": "Displays the canvas from https://display.stamsite.nu on the Stream Deck, in real time!",
+    "Icon": "./display_icon",
+    "Name": "Stamsite Pixel Display",
+    "Version": "1.0.0",
+    "SDKVersion": 2,
+    "OS": [
+        {
+            "Platform": "windows",
+            "MinimumVersion": "10"
+        },
+        {
+            "Platform": "mac",
+            "MinimumVersion": "10.11"
+        }
+    ],
+    "Software": {
+        "MinimumVersion": "6.1"
+    },
+    "Actions": [
+        {
+            "UUID": "se.olofspelar.pixeldisplay.action",
+            "Icon": "./display_icon",
+            "Name": "Pixel Display",
+            "States": [
+                {
+                    "Image": "./display_icon",
+                    "FontSize": 16
+                }
+            ]
+        }
+    ]
+}
